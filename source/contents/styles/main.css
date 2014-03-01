@@ -1,4 +1,140 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Ubuntu;
+}
+
 h1 {
-	font-family: "UbuntuCondensed";
-	font-size: 48px;
+  font-family: "UbuntuCondensed";
+  font-size: 48px;
+  margin: 0;
+}
+
+#main {
+  background: url('../assets/images/gray-texture.jpg') top center repeat-x;
+  text-align: center;
+  overflow: hidden;
+  height: 200px;
+}
+
+#main img {
+  width: 600px;
+  position: relative;
+  top: -172px;
+}
+
+.dark-overlay {
+  background-color: rgba(0,25,55, 0.9);
+  box-shadow: inset 0 0 12px #000;
+}
+
+.constrain {
+  width: 620px;
+  margin: auto;
+}
+
+.about {
+  font-size: 32px;
+  font-family: UbuntuCondensed;
+  color: #666;
+  text-align: center;
+  line-height: 44px;
+  color: rgb(0,25,55);
+}
+
+strong {
+  font-family: Ubuntu;
+}
+
+#download {
+  margin: 12px;
+  text-align: center;
+  padding: 12px;
+}
+
+#download a {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 3px;
+  background-color: rgb(0,25,55);
+  border: 2px solid rgb(0,25,55);
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+  margin: 0 12px;
+}
+
+#download a:hover {
+  background-color: #fff;
+  color: rgb(0,25,55);
+}
+
+#download span {
+  text-transform: uppercase;
+  font-family: UbuntuCondensed;
+  font-size: 18px;
+}
+
+#features {
+  list-style-type: none;
+  margin: 12px 0 24px 0;
+  padding: 12px 0;
+  border-top: 1px solid #e2e2e2;
+}
+
+#features li {
+  overflow: hidden;
+  margin: 48px 0;
+  padding: 24px;
+}
+
+#features img {
+  width: 160px;
+  height: 160px;
+  margin: 0 12px;
+}
+
+#features header {
+  font-size: 26px;
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+
+#features p {
+  margin: 48px 0 0 0;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+#features .right > img {
+  float: right;
+  margin-right: 0;
+}
+
+#features .left {
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+#features .left > img {
+  float: left;
+  margin-left: 0;
+}
+
+#features .right > header {
+  float: left;
+}
+
+#features .left > header {
+  float: right;
+}
+
+#features .right > p {
+  clear: left;
+  text-align: left;
+}
+
+#features .left > p {
+  clear: right;
+  text-align: right;
 }
