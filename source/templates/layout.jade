@@ -3,8 +3,11 @@ html(lang='en')
   head
     meta(charset='utf-8')
     title= locals.title
-    link(rel='stylesheet', type='text/css', href='styles/fonts.css')
-    link(rel='stylesheet', type='text/css', href='styles/main.css')
-    script(type='text/javascript', src='scripts/vendor/jquery-2.0.1.min.js')
+    link(rel='stylesheet', type='text/css', href='/styles/fonts.css')
+    link(rel='stylesheet', type='text/css', href='/styles/main.css')
+    script(type='text/javascript', src='/scripts/vendor/jquery-2.0.1.min.js')
   body
-    block content
+    include partials/header
+    div.contstrain
+      block content
+    include partials/footer
