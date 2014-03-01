@@ -13,9 +13,7 @@
     "untv",
     "website"
   ],
-  "dependencies" : {
-
-  },
+  "dependencies" : {},
   "analyze": false,
   "license": "GPL",
   "engines": {
