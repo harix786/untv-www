@@ -1,0 +1,15 @@
+{
+  "locals": {
+    "title": "UNTV - Free Your Media!"
+  },
+  "contents": "./contents",
+  "templates": "./templates",
+  "views": null,
+  "require": {},
+  "plugins": [],
+  "ignore": [],
+  "output": "../build",
+  "baseUrl": "/",
+  "hostname": null,
+  "port": 8080
+}
