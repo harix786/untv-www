@@ -3,9 +3,13 @@ html(lang='en')
   head
     meta(charset='utf-8')
     title= locals.title
+    link(rel='stylesheet', href='/styles/vendor/monokai.css')
+    script(type='text/javascript', src='/scripts/vendor/highlight.min.js')
     link(rel='stylesheet', type='text/css', href='/styles/fonts.css')
     link(rel='stylesheet', type='text/css', href='/styles/main.css')
-    script(type='text/javascript', src='/scripts/vendor/jquery-2.0.1.min.js')
+    script(type='text/javascript', src='/scripts/vendor/jquery-2.1.0.min.js')
+    script.
+      hljs.initHighlightingOnLoad();
   body
     include partials/header
     div.constrain

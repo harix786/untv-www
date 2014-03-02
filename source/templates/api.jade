@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  h1 API Documentation
+  p.blockquote.
+    Welcome, hacker! Here you can find resources for learning about how to 
+    develop extensions and themes for UNTV. These are living documents and may 
+    change often. If you discover any gaps, please feel free to fork this site 
+    on GitHub and send a pull request.
+  h1 Contents
+  ul#docs
+    for doc, path in contents.documentation 
+      - var include = (page.metadata.ignore.indexOf(path) === -1)
+      if include
+        li 
+          - var path = path.split('.');
+          - path.pop();
+          - var link = path.join('.') + '.html';
+          a(href='/documentation/#{link}') #{doc.title}
+  != contents.documentation['getting-started.md'].html

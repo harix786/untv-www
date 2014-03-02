@@ -5,9 +5,71 @@ html, body {
 }
 
 h1 {
-  font-family: "UbuntuCondensed";
-  font-size: 48px;
-  margin: 0;
+  font-family: UbuntuCondensed;
+  font-size: 42px;
+  margin: 24px 0;
+  color: rgb(0,25,55);
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e2e2e2;
+  font-weight: normal;
+  clear: left;
+}
+
+blockquote {
+  font-style: italic;
+  color: #333;
+  border-left: 4px solid #e2e2e2;
+  padding: 0 0 0 24px;
+  font-size: 15px;
+}
+
+.blockquote {
+  line-height: 26px;
+  padding: 12px;
+  background: #f1f1f1;
+  border-radius: 4px;
+  color: #333;
+  text-shadow: 0 1px 0 #fff;
+}
+
+nav.back {
+  margin: 24px 0 12px 0;
+  border-radius: 4px;
+  background: #f1f1f1;
+  padding: 12px;
+  float: left;
+}
+
+nav.back a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav.back a:hover {
+  text-decoration: underline;
+}
+
+nav.back a::before {
+  content:  '\2190';
+}
+
+ul#docs {
+  list-style-type: square;
+  margin-bottom: 24px;
+}
+
+ul#docs li {
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+ul#docs a {
+  text-decoration: none;
+  color: rgb(0,25,55);
+}
+
+ul#docs a:hover {
+  text-decoration: underline;
 }
 
 #main {

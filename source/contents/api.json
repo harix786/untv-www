@@ -1,0 +1,6 @@
+{
+  "template": "api.jade",
+  "ignore": [
+    "getting-started.md"
+  ]
+}
