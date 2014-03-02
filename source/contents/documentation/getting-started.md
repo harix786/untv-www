@@ -11,7 +11,7 @@ Since UNTV aims to provide support for as many codecs as possible, it uses a cus
 Clone the repository:
 
 ```
-git clone https://github.com/gordonwritescode/untv.git
+git clone https://github.com/untv/untv.git
 ```
 
 Install dependencies using Node Package Manager:
