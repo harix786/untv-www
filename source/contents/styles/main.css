@@ -8,7 +8,7 @@ h1 {
   font-family: UbuntuCondensed;
   font-size: 42px;
   margin: 24px 0;
-  color: rgb(0,25,55);
+  color: #800000;
   padding-bottom: 12px;
   border-bottom: 1px solid #e2e2e2;
   font-weight: normal;
@@ -77,7 +77,7 @@ ul#docs a:hover {
 }
 
 #main {
-  background: url('../assets/images/gray-texture.jpg') top center repeat-x;
+  background: url('../assets/images/red-pixels.png') top center repeat;
   text-align: center;
   overflow: hidden;
   height: 200px;
@@ -90,8 +90,8 @@ ul#docs a:hover {
 }
 
 .dark-overlay {
-  background-color: rgba(0,25,55, 0.9);
-  box-shadow: inset 0 0 12px #000;
+/*  background-color: rgba(0,25,55, 0.9);
+*/  box-shadow: inset 0 0 12px #000;
   overflow: hidden;
 }
 
@@ -106,7 +106,7 @@ ul#docs a:hover {
   color: #666;
   text-align: center;
   line-height: 44px;
-  color: rgb(0,25,55);
+  color: #800000;
 }
 
 strong {
@@ -123,8 +123,8 @@ strong {
   display: inline-block;
   padding: 8px 16px;
   border-radius: 3px;
-  background-color: rgb(0,25,55);
-  border: 2px solid rgb(0,25,55);
+  background-color: #800000;
+  border: 2px solid #800000;
   color: #fff;
   text-decoration: none;
   font-size: 22px;
@@ -133,7 +133,7 @@ strong {
 
 #download a:hover {
   background-color: #fff;
-  color: rgb(0,25,55);
+  color: #800000;
 }
 
 #download span {
@@ -165,6 +165,7 @@ strong {
   font-size: 26px;
   font-family: Ubuntu;
   font-weight: bold;
+  color: #800000;
 }
 
 #features p {
@@ -207,7 +208,7 @@ strong {
 }
 
 footer {
-  background: url('../assets/images/gray-texture.jpg') top center repeat-x;
+  background: url('../assets/images/red-pixels.png') top center repeat;
   padding: 0;
   color: #fff;
   overflow: hidden;
@@ -239,7 +240,7 @@ footer .right a {
   padding: 12px;
   margin: 12px;
   background-color: #fff;
-  color: rgb(0,25,55);
+  color: #800000;
   font-weight: bold;
   border-radius: 4px;
 }
