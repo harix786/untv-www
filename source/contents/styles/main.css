@@ -80,13 +80,13 @@ ul#docs a:hover {
   background: url('../assets/images/red-pixels.png') top center repeat;
   text-align: center;
   overflow: hidden;
-  height: 200px;
+  height: 140px;
 }
 
 #main img {
-  width: 600px;
+  width: 405px;
   position: relative;
-  top: -172px;
+  top: -108px;
 }
 
 .dark-overlay {

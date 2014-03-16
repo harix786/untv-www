@@ -13,7 +13,7 @@ $(document).ready(function() {
     return os;
   };
 
-  var download = $("#download a");
+  var download = $("#download .bundle");
   var system   = getOperatingSystem();
 
   if (system) {
