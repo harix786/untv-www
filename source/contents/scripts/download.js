@@ -1,8 +1,9 @@
 $(document).ready(function() {
+  var v = "0.7.0";
   var downloads = {
-    linux: "https://github.com/untv/untv/releases/download/v0.6.0/untv-0.6.0-linux64.zip",
-    win: "https://github.com/untv/untv/releases/download/v0.6.0/untv-0.6.0-win.zip",
-    osx: "https://github.com/untv/untv/releases/download/v0.6.0/untv-0.6.0-osx.zip"
+    linux: "https://github.com/untv/untv/releases/download/v" + v + "/untv-" + v + "-linux64.zip",
+    win: "https://github.com/untv/untv/releases/download/v" + v + "/untv-" + v + "-win.zip",
+    osx: "https://github.com/untv/untv/releases/download/v" + v + "/untv-" + v + "-osx.zip"
   };
 
   function getOperatingSystem() {
