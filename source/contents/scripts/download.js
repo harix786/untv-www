@@ -10,7 +10,6 @@ $(document).ready(function() {
     if (typeof ga !== "function") return;
     ga('send', 'event', 'outbound', 'click', url, {
       hitCallback: function () {
-        console.log('tracked!')
         document.location = url;
       }
     });
