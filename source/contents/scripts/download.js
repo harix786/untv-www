@@ -6,6 +6,16 @@ $(document).ready(function() {
     osx: "https://github.com/untv/untv/releases/download/v" + v + "/untv-" + v + "-osx.zip"
   };
 
+  function trackDownloadClick(url) {
+    if (typeof ga !== "function") return;
+    ga('send', 'event', 'outbound', 'click', url, {
+      hitCallback: function () {
+        console.log('tracked!')
+        document.location = url;
+      }
+    });
+  };
+
   function getOperatingSystem() {
     var os = null;
     if (navigator.appVersion.indexOf("Win")!=-1) os="win";
@@ -19,5 +29,8 @@ $(document).ready(function() {
 
   if (system) {
     download.attr("href", downloads[system]);
+    download.bind("click", function() {
+      trackDownloadClick(downloads[system]);
+    });
   }
 });
