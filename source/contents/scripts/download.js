@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var v = "0.7.0";
+  var v = "0.8.0";
   var downloads = {
     linux: "https://github.com/untv/untv/releases/download/v" + v + "/untv-" + v + "-linux64.zip",
     win: "https://github.com/untv/untv/releases/download/v" + v + "/untv-" + v + "-win.zip",
@@ -24,6 +24,7 @@ $(document).ready(function() {
   };
 
   var download = $("#download .bundle");
+  var version  = $("#download .version .semver");
   var system   = getOperatingSystem();
 
   if (system) {
@@ -32,4 +33,6 @@ $(document).ready(function() {
       trackDownloadClick(downloads[system]);
     });
   }
+
+  version.html(v);
 });
