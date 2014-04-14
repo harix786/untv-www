@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var v = "0.8.1";
+  var v = "0.8.2";
   var downloads = {
     linux: "https://github.com/untv/untv/releases/download/v" + v + "/untv-" + v + "-linux64.zip",
     win: "https://github.com/untv/untv/releases/download/v" + v + "/untv-" + v + "-win.zip",
